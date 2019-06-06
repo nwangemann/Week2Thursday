@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title></title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="aboutme">
+        <!-- This is input for three items -->
+        <div class="form-group">
+          <label class="labelMe" for="yourName">Name</label>
+          <input type="text" class="form-control" id="yourName">
+          <span id="helpBlock2" class="help-block">You did not enter Name! Please enter a name</span>
+        </div>
+        <div class="form-group">
+          <label class="labelMe" for="yourAge">Age</label>
+          <input type="number" class="form-control" id="yourAge">
+          <span id="helpBlock3" class="help-block">You did not enter age! Please enter an age</span>
+        </div>
+        <div class="form-group">
+          <label class="labelMe" for="yourStar">Favorite Star</label>
+          <input type="text" class="form-control" id="yourStar">
+          <span id="helpBlock4" class="help-block">You did not enter your favorite star! Please enter a star</span>
+        </div>
+
+        <button type="submit" class="btn">Here is an information about you!</button>
+      </form>
+
+      <div id="story">
+        <h1>about yourself!</h1>
+        <p>Dear <span class="yourName"></span>,
+        </p>
+        <p>your age is <span class="yourAge"></span>,
+        </p>
+        <p>you superstar is <span class="yourStar"></span>,
+        </p>
+      </div>
+      <!-- This is box for check -->
+      <!-- <div class="has-success">
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" id="checkboxSuccess" value="option1">
+            Checkbox with success
+          </label>
+        </div>
+      </div>
+      <div class="has-warning">
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" id="checkboxWarning" value="option1">
+            Checkbox with warning
+          </label>
+        </div>
+      </div>
+      <div class="has-error">
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" id="checkboxError" value="option1">
+            Checkbox with error
+          </label>
+        </div>
+      </div> -->
+
+    </div>
+  </body>
+</html>
