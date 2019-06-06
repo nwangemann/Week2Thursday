@@ -1,0 +1,27 @@
+#branchA1 {
+  display: none;
+}
+
+#branchA2 {
+  display: none;
+}
+
+#branchB1 {
+  display: none;
+}
+
+#branchB2 {
+  display: none;
+}
+
+/* .step1 {
+  display: none;
+} */
+
+.stepA {
+  display: none;
+}
+
+.stepB {
+  display: none;
+}
